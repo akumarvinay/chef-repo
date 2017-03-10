@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1> hi Hello World.. We are alive </h1>
+<h2>Hello Welcome to my company name <%= node["company"] %> </h2>
+<p> Welcome...<%= node["fqdn"]%> </p>
+<p> We have total of <%= node["memory"]["total"].to_i/1024 %> Mbytes in our system </p>
+
+</body>
+</html>
+
